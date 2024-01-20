@@ -5,10 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Penguin Fashion</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/af53811214.js" crossorigin="anonymous"></script>
+<style>
+    .bebas-neue{
+        font-family: "Bebas Neue", sans-serif;
+    }
+    .roboto{
+        font-family: "Roboto", sans-serif;
+    }
+</style>
 </head>
 <body>
-    <header>
-        
+    <!-- header start -->
+    <header class="bg-[#FFFBF0;] px-4 md:px-32 pt-7">
+        <!-- nav section start -->
+        <nav class="flex flex-col md:flex-row justify-between items-center">
+            <div class="w-60">
+                <img src="icons/logo.png" alt="">
+            </div>
+            <div>
+                <ul class="roboto flex">
+                    <li class="mr-7">Home</li>
+                    <li class="mr-7">Product</li>
+                    <li class="mr-7">About Us</li>
+                    <li class="mr-7">Contract Us</li>
+                </ul>
+            </div>
+        </nav>
+        <!-- banner section start -->
+        <section class="flex flex-col md:flex-row justify-between">
+            <div class="pt-16">
+                <h1 class="bebas-neue text-7xl"><span class="text-[#FABE4C]">Be the Penguins <br></span> <span class="text-[#363958]">of Winter</span></h1>
+                <p class="roboto text-[#3E3E3E]">Lorem Ipsum is simply dummy text of the printing <br> and typesetting industry.</p>
+                <button class="mt-6 py-4 px-9 bg-blue-500  bg-gradient-to-r from-[#A4BC46] to-[#85A019]  rounded-xl text-white font-medium"> 
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    BUY NOW</button>
+            </div>
+            <div>
+                <img src="images/model.png" alt="">
+            </div>
+        </section>
     </header>
     <main>
 
